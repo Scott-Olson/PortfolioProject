@@ -1,0 +1,171 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: serif;
+}
+#wrapper{
+	width:750px;
+	height: 725px;
+	background-color: #6f5963;
+	padding: 10px 15px;
+}
+
+.topName{
+	display: inline-block;
+	width: 150px;
+	margin-left: 10px;
+}
+
+.topDesc{
+	width: 400px;
+	display: inline-block;
+	text-align: right;
+	margin-left: 205px;
+}
+
+#header{
+	height: 200px;
+}
+
+.HeadingStyle1{
+	height: 30px;
+	width: 230px;
+	line-height: 30px;
+	background: linear-gradient(#b3b2b6, #888694);
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.HeadingStyle1About{
+	height: 30px;
+	width: 370px;
+	line-height: 30px;
+	background: linear-gradient(#b3b2b6, #888694);
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 7px;
+}
+
+.HeadingStyle2{
+	height: 30px;
+	width: 230px;
+	line-height: 30px;
+	background: linear-gradient(#b3b2b6, #888694);
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.headerImage{
+	height: 100%;
+	width: 45%;
+	background-image: url(Portfolio_images/photo_of_me.jpg);
+	background-size: cover;
+	border: 5px solid #c0c0c0;
+	display: inline-block;
+}
+
+.headerAbout{
+	height: 210px;
+	width: 377px;
+	display: inline-block;
+	background-color: #ece4ec;
+	vertical-align: top;
+	margin-left: 18px;
+	padding-left: 3px;
+}
+
+
+#content{
+	height:430px;
+	width: auto;
+	margin-top: 30px;
+}
+
+.contentMiddle{
+	height: 325px;
+	width: 240px;
+	background: linear-gradient(#dacbd9, #f0e9f0);
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.contentMiddle p{
+	padding: 0px 3px;
+	word-spacing: -1px;
+}
+
+.content p{
+	margin-top: 0px;
+}
+
+.contentPhoto{
+
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+.contentPhoto img{
+	width: 100%;
+}
+
+.contentLower{
+	height:165px;
+	width: 240px;
+	background: linear-gradient(#dacbd9, #f0e9f0);
+	display: inline-block;
+	vertical-align: top;
+	/*margin-right: 15px;*/
+}
+
+.technologiesList{
+	height:60px;
+	padding: 5px 8px;
+}
+
+.technologiesList img{
+	height: 40px;
+}
+
+.techTable{
+	display: table;   
+	margin: 0 auto;
+}
+
+.horizontalTable ul{
+	list-style: none;
+	padding-top: 5px;
+}
+
+.horizontalTable li{
+	height: 30px;
+	display: inline;
+}
+
+.siteLink{
+	height:25px;
+	width:100px;
+	line-height: 25px;
+	background-color: #407c61;
+	border-radius: 15px;
+	border: 1px solid #2a5843;
+	font-size: 14px;
+	color:white;
+	text-align: center;
+	margin-left:60px;
+	margin-top: 30px;
+}
+
+.footer{
+	height: 25px;
+	width: 780px;
+	background-color: silver;
+	display: block;
+	text-align: center;
+}
